@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E43E83DB-8FF3-40F3-8C85-67ABD2FAA9EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CarmellaBaldiExtension</RootNamespace>
+    <AssemblyName>Dee4sBaldiPack</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\export</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\export</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="0Harmony">
+      <HintPath>0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>BepInEx.Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Preloader">
+      <HintPath>BepInEx.Preloader.dll</HintPath>
+    </Reference>
+    <Reference Include="HarmonyXInterop">
+      <HintPath>HarmonyXInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows">
+      <HintPath>Rewired_Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="GemuEngine">
+      <HintPath>GemuEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="MTM101BaldAPI">
+      <HintPath>MTM101BaldAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasePlugin.cs" />
+    <Compile Include="NPCs\Carmella.cs" />
+    <Compile Include="NPCs\IceNpc.cs" />
+    <Compile Include="Items\ITM_CheatCode.cs" />
+    <Compile Include="Structures\Fan.cs" />
+    <Compile Include="Structures\FanBuilder.cs" />
+    <Compile Include="Items\ITM_Perucssion.cs" />
+    <Compile Include="NPCs\Billbert.cs" />
+    <Compile Include="NPCs\Skeleton.cs" />
+    <Compile Include="Events\ItemEvent.cs" />
+    <Compile Include="NPCs\FloatingItem.cs" />
+    <Compile Include="Patches\MenuPatch.cs" />
+    <Compile Include="Patches\ChaosPatch.cs" />
+    <Compile Include="NPCs\Rhythm.cs" />
+    <Compile Include="Structures\LaserDoor.cs" />
+    <Compile Include="Structures\LaserDoorBuilder.cs" />
+    <Compile Include="NPCs\Kim.cs" />
+    <Compile Include="NPCs\Coloury.cs" />
+    <Compile Include="Structures\ArtCavas.cs" />
+    <Compile Include="RhythmGame.cs" />
+    <Compile Include="Items\ITM_WhistleImproved.cs" />
+    <Compile Include="Events\CloneEvent.cs" />
+    <Compile Include="Items\ITM_Remote.cs" />
+    <Compile Include="NPCs\Placeface.cs" />
+    <Compile Include="NPCs\Fritz.cs" />
+    <Compile Include="Patches\SubtitleFont.cs" />
+    <Compile Include="BaseGameAddons.cs" />
+    <Compile Include="Patches\MathMachineBonusPatch.cs" />
+    <Compile Include="Structures\GarbageCompactor.cs" />
+    <Compile Include="Patches\ItemPatch.cs" />
+    <Compile Include="Patches\CustomNotebooks.cs" />
+    <Compile Include="Items\ITM_Butter.cs" />
+    <Compile Include="Events\MathCorruptionEvent.cs" />
+    <Compile Include="NPCs\Zark.cs" />
+    <Compile Include="NPCs\Pencir.cs" />
+    <Compile Include="FOVManager.cs" />
+    <Compile Include="Patches\FOVPatch.cs" />
+    <Compile Include="Events\DoorEvent.cs" />
+    <Compile Include="Patches\GumPatch.cs" />
+    <Compile Include="NPCs\Crabby.cs" />
+    <Compile Include="NPCs\WildcardWilly.cs" />
+    <Compile Include="Items\ITM_Giftbox.cs" />
+    <Compile Include="Items\ITM_Sled.cs" />
+    <Compile Include="SugakuExtensions.cs" />
+    <Compile Include="Structures\PartsRoomFunction.cs" />
+    <Compile Include="Structures\LightBasedButton.cs" />
+    <Compile Include="Patches\ApplePatch.cs" />
+    <Compile Include="SpriteRotatorCustom.cs" />
+    <Compile Include="Items\ITM_Soup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NPCs\" />
+    <Folder Include="Items\" />
+    <Folder Include="Events\" />
+    <Folder Include="Structures\" />
+    <Folder Include="Patches\" />
+  </ItemGroup>
+</Project>
