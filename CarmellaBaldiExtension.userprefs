@@ -1,0 +1,46 @@
+﻿<Properties StartupItem="CarmellaBaldiExtension\CarmellaBaldiExtension.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarmellaBaldiExtension\NPCs\Carmella.cs">
+    <Files>
+      <File FileName="CarmellaBaldiExtension\Events\ItemEvent.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Structures\Fan.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\IceNpc.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\SpriteRotatorCustom.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Carmella.cs" Line="93" Column="82" />
+      <File FileName="CarmellaBaldiExtension\NPCs\WildcardWilly.cs" Line="770" Column="15" />
+      <File FileName="CarmellaBaldiExtension\Events\CloneEvent.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Billbert.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Kim.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Crabby.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Items\ITM_Butter.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Items\ITM_CheatCode.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Items\ITM_Giftbox.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Items\ITM_Perucssion.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Items\ITM_Remote.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Items\ITM_Sled.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Items\ITM_WhistleImproved.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Structures\PartsRoomFunction.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Pencir.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Zark.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\BaseGameAddons.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Skeleton.cs" Line="78" Column="29" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Rhythm.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Placeface.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Fritz.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\NPCs\Coloury.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Structures\ArtCavas.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Structures\FanBuilder.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Structures\GarbageCompactor.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\Structures\LaserDoor.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\FOVManager.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\RhythmGame.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\SugakuExtensions.cs" Line="1" Column="1" />
+      <File FileName="CarmellaBaldiExtension\BasePlugin.cs" Line="214" Column="6" NotebookId="1" />
+      <File FileName="CarmellaBaldiExtension\Items\ITM_Soup.cs" Line="35" Column="4" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
